@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Simple express/MySQL back end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node express.js",
+    "test": "test"
+  },
+  "author": "Volodymyr Pliuta",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongodb": "^2.2.33",
+    "node-cron": "^2.0.3",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
